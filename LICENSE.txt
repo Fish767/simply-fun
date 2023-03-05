@@ -2,4 +2,6 @@ No files in this game may be copied, used, or recreated without the file's owner
 
 I do not own the music or images used in this game. I have liscenses that allow me to use them to create games.
 
-All rights reserved.
+Anyone may use, reproduce, or redistribute the JavaScript, CSS, and HTML files.
+
+All other rights are reserved. Please contact me if you have any questions.
