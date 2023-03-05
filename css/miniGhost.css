@@ -1,0 +1,34 @@
+.enemy.miniGhost {
+    /*background-image: url("../pics/Enemies/MiniGhost/MiniGhost_00.png");*/
+    background-image: url(../pics/Enemies/MiniGhost/MiniGhost_Walking.gif);
+    height: 64px;
+    width: 64px;
+    background-color: transparent;
+    position: absolute;
+}
+
+.enemy.miniGhost.left{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/*.enemy.miniGhost.attacking{
+    background-image: url(../pics/Enemies/MiniGhost/MiniGhost_Attack.gif);
+}*/
+
+/*.enemy.miniGhost.frame1 {
+    background-image: url("../pics/Enemies/MiniGhost/MiniGhost_00.png");
+}
+
+.enemy.miniGhost.frame2 {
+    background-image: url("../pics/Enemies/MiniGhost/MiniGhost_01.png");
+}
+
+.enemy.miniGhost.frame3 {
+    background-image: url("../pics/Enemies/MiniGhost/MiniGhost_02.png");
+}
+
+.enemy.miniGhost.frame4 {
+    background-image: url("../pics/Enemies/MiniGhost/MiniGhost_03.png");
+}
+*/

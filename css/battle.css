@@ -1,0 +1,86 @@
+#enemyPic{
+    position: absolute;
+    top: 0px;
+    height: 64px;
+    left: calc(80% / 2);
+}
+
+#playerPic{
+    position: absolute;
+    bottom: calc(20% + 30px);
+    height: 64px;
+    left: calc(80% / 2);
+}
+
+#playerStats{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 2px solid forestgreen;
+    width: 20%;
+}
+
+.playerBattleStats {
+    color: khaki;
+    height: 10%;
+}
+
+#playerAutoAttackCooldown{
+    position: absolute;
+    border: 2px solid gray;
+    left: calc(80% / 2 - 20px);
+    bottom: 18%;
+    height: 2%;
+    width: 100px;
+}
+
+#enemyAutoAttackCooldown{
+    position: absolute;
+    border: 2px solid gray;
+    left: calc(80% / 2 - 20px);
+    top: 12%;
+    height: 2%;
+    width: 100px;
+}
+
+#enemyBattleFillBar{
+    width: 0%;
+    height: 100%;
+    background-color: gray;
+}
+
+#playerBattleFillBar{
+    width: 0%;
+    height: 100%;
+    background-color: gray;
+}
+
+#playerHealthBar{
+    position: absolute;
+    border: 2px solid brown;
+    left: calc(80% / 2 - 20px);
+    bottom: 20%;
+    height: 2%;
+    width: 100px;
+}
+
+#enemyHealthBar{
+    position: absolute;
+    border: 2px solid brown;
+    left: calc(80% / 2 - 20px);
+    top: 10%;
+    height: 2%;
+    width: 100px;
+}
+
+#enemyBattleHealthBar{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+
+#playerBattleHealthBar{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}

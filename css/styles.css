@@ -1,0 +1,107 @@
+*{
+    height: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    overflow: hidden;
+}
+
+#background{
+    width: 100%;
+    background-image: url("../pics/grass-tile.png");
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#player{
+    width: 64px;
+    height: 64px;
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_01.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#player.down1{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_01.png");
+}
+
+#player.down2{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_02.png");
+}
+
+#player.down3{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_00.png");
+}
+
+#player.right1{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_04.png");
+}
+
+#player.right2{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_05.png");
+}
+
+#player.right3{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_03.png");
+}
+
+#player.left1{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_07.png");
+}
+
+#player.left2{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_08.png");
+}
+
+#player.left3{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_06.png");
+}
+
+#player.up1{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_10.png");
+}
+
+#player.up2{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_11.png");
+}
+
+#player.up3{
+    background-image: url("../pics/Player/Werebeast_4/Werebeast_4_09.png");
+}
+
+#playerContainer{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    background-color: transparent;
+}
+
+#enemyContainer{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: transparent;
+}
+
+#hueOverlay{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(43, 26, 68, 0.402);
+}
+
+#battleContainer{
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background-color: black;
+    visibility: hidden;
+}
