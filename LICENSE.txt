@@ -1,6 +1,8 @@
+This game, in it's entirety, may be downloaded and distributed. If it is distributed, it is to be distributed at no cost.
+
 No files in this game may be copied, used, or recreated without the file's owner's permission.
 
-I do not own the music or images used in this game. I have liscenses that allow me to use them to create games.
+I do not own the music or images used in this game. I have liscenses that allow me to use them to create games. Therefore, the music and images cannot be used outside of this work without additional liscenses.
 
 Anyone may use, reproduce, or redistribute the JavaScript, CSS, and HTML files.
 
